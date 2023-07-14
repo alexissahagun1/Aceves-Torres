@@ -1,16 +1,9 @@
 import React from 'react'
 import Hero from '../components/Hero'
 import Footer from '../components/Footer'
-import ContentSoluciones from '../components/ContentSoluciones'
 import VideoComponent from '../components/VideoComponent'
 import Beneficios from '../components/Beneficios'
 import PhotoCollage from '../components/PhotoCollage'
-import IconsCarousel from '../components/IconsCarousel'
-import carouselIcons from '../components/CarouselIcons'
-import alianzasIcons from '../components/AlianzasIcons'
-import SociosIcons from '../components/SociosIcons'
-import Certificaciones from '../components/Certificaciones'
-import BeneficiosTextResi from '../components/Servicios'
 import ContactForm from '../components/ContactForm'
 import Title from '../components/Title'
 
@@ -51,7 +44,7 @@ const Residencial = () => {
                 </div>
 
 
-                <VideoComponent video="bgVideo.mp4" size="md:h-[660px] h-[300px]"/>
+                {/* <VideoComponent video="bgVideo.mp4" size="md:h-[660px] h-[300px]"/> */}
 
                 <ContactForm isOverlapped={false}/>
 

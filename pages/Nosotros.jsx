@@ -2,7 +2,7 @@ import React from 'react'
 import Footer from '../components/Footer'
 import Hero from '../components/Hero'
 import NosotrosBio from '../components/NosotrosBio'
-import NosotrosContent from '../components/NosotrosContent'
+// import NosotrosContent from '../components/NosotrosContent'
 import Valores from '../components/Valores'
 import Link from 'next/link'
 import IconsCarousel from '../components/IconsCarousel'
@@ -23,7 +23,7 @@ const Nosotros = () => {
             </div>
 
             <NosotrosBio/>
-            <NosotrosContent/>
+            {/* <NosotrosContent/> */}
             <Valores/>
 
             <div className="flex md:flex-row flex-col  xl:mx-[200px] lg:mx-[100px] mx-8 lg:mt-[100px] mt-8 md:space-x-10 space-y-4 md:space-y-0 md:items-start items-center">
