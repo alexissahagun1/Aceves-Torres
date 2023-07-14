@@ -5,7 +5,6 @@ import NosotrosBio from '../components/NosotrosBio'
 // import NosotrosContent from '../components/NosotrosContent'
 import Valores from '../components/Valores'
 import Link from 'next/link'
-import IconsCarousel from '../components/IconsCarousel'
 import carouselIcons from '../components/CarouselIcons'
 import Title from '../components/Title'
 
@@ -60,7 +59,7 @@ const Nosotros = () => {
                     </div>
                 </div>
 
-            <IconsCarousel file={carouselIcons} numberItems={5} isAutoPlay={true}/>
+            {/* <IconsCarousel file={carouselIcons} numberItems={5} isAutoPlay={true}/> */}
 
 
 

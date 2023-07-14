@@ -54,7 +54,7 @@ const Industria = () => {
                     </div>
                 </div>
 
-                <IconsCarousel file={carouselIcons} numberItems={5} isAutoPlay={true} bgColor=""/>
+                {/* <IconsCarousel file={carouselIcons} numberItems={5} isAutoPlay={true} bgColor=""/> */}
 
                 <div className="mx-auto p-4">
                     <PhotoCollage customPhotos={customPhotos} />
