@@ -6,7 +6,7 @@ import Beneficios from '../components/Beneficios'
 import PhotoCollage from '../components/PhotoCollage'
 import ContactForm from '../components/ContactForm'
 import Title from '../components/Title'
-
+import Servicios from '../components/Servicios'
 
 
 
