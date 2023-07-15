@@ -60,7 +60,7 @@ const Industria = () => {
                     <PhotoCollage customPhotos={customPhotos} />
                 </div>
 
-                <div id="/Soluciones#Industrias" className="text-center flex flex-col items-center xl:mx-[420px] space-y-5 mx-8 mt-10">
+                <div className="text-center flex flex-col items-center xl:mx-[420px] space-y-5 mx-8 mt-10">
                     <div className="flex flex-row items-center">
                         <img src="LineThroughHeading.png" alt="" className="mx-8 hidden md:block"/>
                         <h2 className="uppercase stella-orange font-semibold md:text-[24px] text-lg">Beneficios para su industria o negocio</h2>

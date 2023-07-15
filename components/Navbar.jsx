@@ -64,17 +64,11 @@ const Navbar = () => {
                         <li onClick={handleNav}  className="text-2xl hover:text-white">
                             <Link href="/Home">Home</Link>
                         </li>
-                        {/* <li onClick={handleNav}  className="text-2xl hover:text-white">
-                            <Link href="/Soluciones#Industrias">Industrias</Link>
-                        </li> */}
                         <li onClick={handleNav}  className="text-2xl hover:text-white">
-                            <Link href="/Soluciones">Soluciones</Link>
+                            <Link href="/Home">Home</Link>
                         </li>
                         <li onClick={handleNav}  className="text-2xl hover:text-white">
-                            <Link href="/Residencial">Residencial</Link>
-                        </li>
-                        <li onClick={handleNav}  className="text-2xl hover:text-white">
-                            <Link href="/Industria">Industria</Link>
+                            <Link href="/Servicios">Servicios</Link>
                         </li>
                         <li onClick={handleNav}  className="text-2xl hover:text-white">
                             <Link href="/Nosotros">Nosotros</Link>

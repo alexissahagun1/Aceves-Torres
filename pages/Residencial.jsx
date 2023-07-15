@@ -18,7 +18,7 @@ const Residencial = () => {
             <Hero video="Hero.mp4" heading="Paneles solares para su hogar." message="1 año de mantenimiento gratis." size="md:h-[789px] h-[600px]"/>
 
 
-            <div id="/Soluciones#Industrias" className="text-center flex flex-col items-center xl:mx-[420px] space-y-5 mx-8">
+            <div className="text-center flex flex-col items-center xl:mx-[420px] space-y-5 mx-8">
                 <div className="flex flex-row items-center">
                     <img src="LineThroughHeading.png" alt="" className="mx-8 hidden md:block"/>
                     <h2 className="uppercase stella-orange font-semibold md:text-[24px] text-lg">Beneficios para su hogar</h2>

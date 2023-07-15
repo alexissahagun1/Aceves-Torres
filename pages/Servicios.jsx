@@ -1,39 +1,30 @@
 import React from 'react'
-import Head from 'next/head'
 import Hero from '../components/Hero'
 import Footer from '../components/Footer'
-import ContentSoluciones from '../components/ContentSoluciones'
-import VideoComponent from '../components/VideoComponent'
-import Beneficios from '../components/Beneficios'
-import CarouselComponent from '../components/CarouselComponent'
-import carouselIcons from '../components/CarouselIcons'
-import alianzasIcons from '../components/AlianzasIcons'
-import SociosIcons from '../components/SociosIcons'
-import Certificaciones from '../components/Certificaciones'
-import BeneficiosText from '../components/BeneficiosContent'
-import ContactForm from '../components/ContactForm'
 import Title from '../components/Title'
 
 
 
 
-const Soluciones = () => {
+const Servicios = () => {
 
     return (
         <div>
             <Title/>
-            <Hero video="Hero.mp4" heading="Paneles solares para hogares, comercios e industria." message="1 Año de poliza de mantenimiento gratis" size="md:h-[789px] h-[600px]"/>
+            <Hero video="Hero.mp4" isBold={true} fontSize="58px" heading="- Nuestros socios fundadores" size="md:h-[789px] h-[600px]"/>
 
-            <div className="text-center mt-[104px] flex flex-col items-center xl:mx-[420px] mx-8">
-                <h2 className="uppercase stella-orange font-semibold text-[24px] mb-8">Soluciones llave en mano para tus necesidades</h2>
-                <p className="font-base text-gray-600 text-[20px] leading-10">Nos encargamos de gestionar todo tipo de proyectos ofreciendo una solución integral para poner en marcha tu sistema.</p>
-                <p className="font-bold text-gray-600 text-[20px] leading-10">Un solo punto de contacto para todo el proyecto.</p>
+    
+
+
+            <div>
+
+
             </div>
 
-            {/* <ContentSoluciones/> */}
+          
 
 
-            {/* <VideoComponent video="bgVideo.mp4" size="md:h-[660px] h-[300px]"/> */}
+          
 
             {/* <div id="/Soluciones#Industrias" className="text-center flex flex-col items-center xl:mx-[420px] space-y-5 mx-8">
                 <div className="flex flex-row items-center">
@@ -119,7 +110,6 @@ const Soluciones = () => {
 
                 <div className="mb-10"></div>
 
-                <ContactForm isOverlapped={false}/>
 
 
             <Footer/>
@@ -127,4 +117,4 @@ const Soluciones = () => {
     )
 }
 
-export default Soluciones
+export default Servicios
