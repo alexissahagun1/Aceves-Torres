@@ -9,9 +9,9 @@ const Nosotros = () => {
     return (
         <div>
             <Title/>
-            <Hero heading="- Nuestros socios fundadores" size="md:h-[600px] h-[600px]" isBold={true} fontSize="56px" />
+            <Hero heading="- Nuestros socios fundadores" size="md:h-[600px] h-[600px]" isBold={true} fontSize="56px" bgPhoto="LogoAcevesGrande.png" />
 
-            <div className="flex justify-center md:space-x-[150px]">
+            <div className="flex justify-center md:space-x-[150px] mt-[50px]">
                 <div className="flex flex-col space-y-10 md:w-[400px] ">
                     <h2 className='fontcolor font-semibold text-[24px]'>Luis Andrés Aceves de la Cruz</h2>
                     <p className='tracking-wide'>Socio Fundador de la Firma y líder de los equipos de Derecho Corporativo y de la Empresa, así como de Derecho Urbano e Inmobiliario.<br /><br />Licenciado en Derecho y Maestro en Derecho Privado por la Universidad Panamericana, campus Guadalajara.<br /><br />Con más de once años de experiencia, Luis Andrés ha asesorado exitosamente a clientes en la planeación, ejecución, comercialización y gestión jurídica de proyectos inmobiliarios de distintos giros ubicados en diversos puntos de la República Mexicana.<br /><br /> Además, ha asesorado exitosamente a clientes en la estructuración y ejecución de vehículos legales para distintos fines comerciales, así como en la implementación y acompañamiento en materia de Gobierno Corporativo, entre otros.<br /><br />Obtuvo la certificación por el Instituto de Justicia Alternativa del Estado de Jalisco como Prestador de Servicios de Métodos Alternos de Solución de Conflictos (mediador, conciliador y árbitro). </p>
@@ -37,15 +37,16 @@ const Nosotros = () => {
                     </div>
                 </div>
             </div>
-
-
-           
+   
             <div className="flex justify-center md:my-[187px]">
                 <Image src='/Balanza.png'
                 width={80}
                 height={80}
                 />
             </div>
+
+
+            
             
             
             <Footer/>

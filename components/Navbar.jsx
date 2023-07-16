@@ -65,9 +65,6 @@ const Navbar = () => {
                             <Link href="/Home">Home</Link>
                         </li>
                         <li onClick={handleNav}  className="text-2xl hover:text-white">
-                            <Link href="/Home">Home</Link>
-                        </li>
-                        <li onClick={handleNav}  className="text-2xl hover:text-white">
                             <Link href="/Servicios">Servicios</Link>
                         </li>
                         <li onClick={handleNav}  className="text-2xl hover:text-white">

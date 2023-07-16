@@ -16,7 +16,7 @@ const Home = () => {
     return (
         <div>
             <Title/>
-            <Hero heading="Firma de abogados con sede en Guadalajara, Jalisco, especializada en brindar asesoría y patrocinio legal en materias Civil, Mercantil, Societario, Administrativa y Urbana." size="md:h-[500px] h-[300px]"/>
+            <Hero heading="Firma de abogados con sede en Guadalajara, Jalisco, especializada en brindar asesoría y patrocinio legal en materias Civil, Mercantil, Societario, Administrativa y Urbana." size="md:h-[500px] h-[300px]" bgPhoto="LogoAceves.png"/>
 
             <div className="relative md:mt-[100px] flex flex-row justify-start">
                 <img src="/HomePhoto1.png" alt="" className="xl:w-[900px]" />

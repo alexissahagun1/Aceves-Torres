@@ -2,7 +2,8 @@ import React from 'react'
 import Hero from '../components/Hero'
 import Footer from '../components/Footer'
 import Title from '../components/Title'
-
+import Image from 'next/image'
+import ServiciosComponent from '../components/ServiciosComponent'
 
 
 
@@ -11,16 +12,49 @@ const Servicios = () => {
     return (
         <div>
             <Title/>
-            <Hero video="Hero.mp4" isBold={true} fontSize="58px" heading="- Nuestros socios fundadores" size="md:h-[789px] h-[600px]"/>
+            <div className="relative md:mt-[150px] md:mx-[115px]">
+                <Image
+                src="/FondoServicios.png"
+                alt="My Image"
+                layout="responsive"
+                width={1369}
+                height={487}
+                />
+                <div className="absolute top-0 fontcolor flex flex-col md:mx-[126px] md:mt-[80px] space-y-4">
+                    <h3 className="font-bold text-[48px]">-Servicios</h3>
+                    <p className="ml-6">Se describen algunos de ellos</p>
+                </div>
+
+
+                
+                <div className='flex justify-center md:-mt-[270px]'>
+                    <Image
+                    src="/FotoServicios1.png"
+                    alt="My Image"
+                    width={974}
+                    height={516}
+                    />
+                </div>
+            </div>
+
+            <div className="flex justify-center md:mt-[69px]">
+                <Image
+                    src="/LineaServicios.png"
+                    alt="My Image"
+                    width={65}
+                    height={4}
+                />
+            </div>
+
+            <ServiciosComponent/>
 
     
 
 
-            <div>
+    
 
 
-            </div>
-
+    
           
 
 
@@ -108,7 +142,7 @@ const Servicios = () => {
 
                 <VideoComponent video="bgVideo.mp4" size="md:h-[660px] h-[300px]"/> */}
 
-                <div className="mb-10"></div>
+                <div className="mt-[300px]"></div>
 
 
 
