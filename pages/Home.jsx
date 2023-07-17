@@ -14,17 +14,20 @@ const Home = () => {
       <Hero
         heading="Firma de abogados con sede en Guadalajara, Jalisco, especializada en brindar asesoría y patrocinio legal en materias Civil, Mercantil, Societario, Administrativa y Urbana."
         size="md:h-[500px] h-[300px]"
-        bgPhoto="LogoAceves.png"
+        bgPhoto1="LogoAceves.png"
+        bgPhoto2="LogoAcevesGrande.png"
       />
 
-      <div className="relative md:mt-[100px]  flex flex-col md:flex-row justify-start">
-        <img src="/HomePhoto1.png" alt="" className="xl:w-[900px]" />
+      <div className="relative md:mt-[100px]  mt-10 flex flex-col md:flex-row md:justify-start items-center">
+        <img src="/HomePhoto1.png" alt="" className="lg:w-[900px] md:w-[550px] w-[450px]" />
         {/* <div className="bg-gray-400 md:w-[760px] xl:w-[900px] md:bottom-[-77px] right-0 h-[487px] flex items-center justify-center"> */}
-        <div className="bg-gray-400  xl:w-[900px] md:bottom-[-77px] right-0 h-[487px] flex items-center justify-center">
+        <div className="bg-gray-400  xl:w-[900px] md:bottom-[-77px] right-0 h-[487px]  flex items-center justify-center">
           <div className="flex flex-col space-y-10">
-            <p className="xl:mx-36 mx-10 font-medium text-white font-regular leading-[35px] xl:w-[500px]">
-              Forjamos una relación cliente - abogado, que sea tan confiable, cercana y transparente, que la colaboración conjunta pueda perdurar y trascender más allá de algún asunto en particular. Por ende, los miembros de la Firma dedican todo su esfuerzo y habilidad profesional para obtener los mejores resultados de una forma técnica, eficaz y ética en favor de nuestros clientes.
+            <p className="xl:mx-36 mx-10 text-white font-regular leading-[35px] tracking-wide xl:w-[500px]">
+            Aceves & Torres Abogados fue fundada en 2019, con el objetivo de prestar servicios legales de forma personal, con la más alta exigencia técnica y ética a nuestros clientes.
             </p>
+
+            <p className='xl:mx-36 mx-10 font-medium fontcolor font-regular leading-[35px] xl:w-[500px]'>Conoce más {'\u2192'} </p>
           </div>
         </div>
       </div>
@@ -51,11 +54,11 @@ const Home = () => {
         <p className="md:mt-[30px] mt-4 font-color md:text-[18px] font-regular">Con calidad, técnica y ética.</p>
       </div>
 
-      <div className="relative md:mt-[100px] mt-20 flex flex-col md:flex-row-reverse justify-start">
-        <img src="/HomePhoto1.png" alt="" className="xl:w-[900px]" />
+      <div className="relative md:mt-[100px] mt-20 flex flex-col md:flex-row-reverse md:justify-start items-center">
+        <img src="/HomePhoto1.png" alt="" className="w-[400px] lg:w-[700px]" />
         <div className="bg-gray-400 md:w-[760px] xl:w-[900px] md:bottom-[-77px] right-0 md:h-[487px] flex items-center justify-center">
           <div className="flex flex-col space-y-10">
-            <p className="md:mx-36 mx-6 my-6 md:my-0 py-10 md:py-0 font-medium text-white font-regular leading-[35px] xl:w-[500px]">
+            <p className="md:mx-10  mx-6 my-6 md:my-0 py-10 md:py-0 font-medium text-white font-regular leading-[35px] xl:w-[500px]">
               Forjamos una relación cliente - abogado, que sea tan confiable, cercana y transparente, que la colaboración conjunta pueda perdurar y trascender más allá de algún asunto en particular. Por ende, los miembros de la Firma dedican todo su esfuerzo y habilidad profesional para obtener los mejores resultados de una forma técnica, eficaz y ética en favor de nuestros clientes.
             </p>
           </div>
