@@ -19,20 +19,16 @@ const Home = () => {
         bgPhoto3="LogoATBlanco.png"
       />
 
-      <div className="relative md:mt-[100px]  mt-10 flex flex-col md:flex-row md:justify-start items-center bg-gray-400">
-        <img src="/HomePhoto1.png" alt="" className="lg:w-[900px] md:w-[550px] w-[450px]" />
-        <div className="xl:w-[900px] md:bottom-[-77px] flex items-center justify-center">
+<div className="relative md:mt-[100px]  mt-10 flex flex-col md:flex-row md:justify-start items-center ">
+        <img src="/HomePhoto1.png" alt="" className="2xl:w-[900px] xl:w-[600px] lg:w-[500px] md:w-[550px] w-[450px] md:h-[591px]" />
+        <div className="flex md:w-[760px] xl:w-full w-full md:bottom-[-77px] items-center justify-center bg-gray-400 md:h-[500px]  z-10">
           <div className="flex flex-col space-y-10">
-            <p className="xl:mx-36 mx-10 text-white text-2xl text-justify font-regular leading-[35px] tracking-wide xl:w-[500px]">
+            <p className="xl:mx-36 mx-10 text-white md:text-xl text-lg text-justify font-regular leading-[35px] tracking-wide xl:w-[500px]">
             Aceves & Torres Abogados fue fundada en 2019, con el objetivo de prestar servicios legales de forma personal, con la más alta exigencia técnica y ética a nuestros clientes.
             </p>
-            <Link href="/Nosotros">
-              <p className='xl:mx-36 mx-10 font-medium fontcolor font-regular leading-[35px] xl:w-[500px] text-3xl cursor-pointer'>Conoce más {'\u2192'} </p>
-            </Link>
           </div>
         </div>
       </div>
-
       <Beneficios
         file={Servicios}
         headingColor="text-indigo-900"
