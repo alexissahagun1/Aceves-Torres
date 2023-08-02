@@ -16,7 +16,7 @@ const Hero = ({ heading, heading2, size, isBold, fontSize, bgPhoto1, bgPhoto2, b
             {heading}
           </h2>
           <h2
-            className={`md:text-4xl text-xl md:pb-10  z-10 ${isBold ? 'font-bold' : 'font-medium'} ${fontSize}`}
+            className={`md:text-4xl text-xl md:pb-10 md:w-[930px] z-10 ${isBold ? 'font-bold' : 'font-medium'} ${fontSize}`}
           >
             {heading2}
           </h2>
