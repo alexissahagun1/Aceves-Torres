@@ -12,22 +12,23 @@ const Home = () => {
     <div>
       <Title />
       <Hero
-        heading="Firma de abogados con sede en Guadalajara, Jalisco, especializada en brindar asesoría y patrocinio legal en materias Civil, Mercantil, Societario, Administrativa y Urbana."
+        heading2="Firma de abogados con sede en Guadalajara, Jalisco, especializada en brindar asesoría y patrocinio legal en materias Civil, Mercantil, Societario, Administrativa y Urbana."
         size="md:h-[500px] h-[300px]"
-        bgPhoto1="LogoAceves.png"
-        bgPhoto2="LogoAcevesGrande.png"
+        // bgPhoto1="LogoAceves.png"
+        // bgPhoto2="LogoAcevesGrande.png"
+        bgPhoto3="LogoATBlanco.png"
       />
 
-      <div className="relative md:mt-[100px]  mt-10 flex flex-col md:flex-row md:justify-start items-center">
+      <div className="relative md:mt-[100px]  mt-10 flex flex-col md:flex-row md:justify-start items-center bg-gray-400">
         <img src="/HomePhoto1.png" alt="" className="lg:w-[900px] md:w-[550px] w-[450px]" />
-        {/* <div className="bg-gray-400 md:w-[760px] xl:w-[900px] md:bottom-[-77px] right-0 h-[487px] flex items-center justify-center"> */}
-        <div className="bg-gray-400  xl:w-[900px] md:bottom-[-77px] right-0 h-[487px]  flex items-center justify-center">
+        <div className="xl:w-[900px] md:bottom-[-77px] flex items-center justify-center">
           <div className="flex flex-col space-y-10">
-            <p className="xl:mx-36 mx-10 text-white font-regular leading-[35px] tracking-wide xl:w-[500px]">
+            <p className="xl:mx-36 mx-10 text-white text-2xl text-justify font-regular leading-[35px] tracking-wide xl:w-[500px]">
             Aceves & Torres Abogados fue fundada en 2019, con el objetivo de prestar servicios legales de forma personal, con la más alta exigencia técnica y ética a nuestros clientes.
             </p>
-
-            <p className='xl:mx-36 mx-10 font-medium fontcolor font-regular leading-[35px] xl:w-[500px]'>Conoce más {'\u2192'} </p>
+            <Link href="/Nosotros">
+              <p className='xl:mx-36 mx-10 font-medium fontcolor font-regular leading-[35px] xl:w-[500px] text-3xl cursor-pointer'>Conoce más {'\u2192'} </p>
+            </Link>
           </div>
         </div>
       </div>
@@ -41,7 +42,7 @@ const Home = () => {
       />
 
       <div className="flex md:justify-end md:mt-32 my-14 md:my-0 md:mr-[288px] md:mx-0 mx-10 fontcolor font-bold text-[30px] ">
-        <h4 className="md:w-[350px] w-screen">Más detalles sobre nuestros servicios</h4>
+        <h4 className="md:w-[320px] w-screen">Más detalles sobre nuestra práctica y servicios</h4>
         <Link href="/Servicios">
           <img src="FlechaGrande.png" className="md:w-[50px] md:h-[35px] w-[40px] h-[25px] mt-[80px] cursor-pointer" alt="" />
         </Link>
@@ -51,10 +52,9 @@ const Home = () => {
         <h2 style={{ color: '#929ca9' }} className="customFont font-regular md:text-[42px] text-[30px]  md:w-[700px] tracking-wide">
           Forjamos relaciones estrechas y transparentes con nuestros clientes
         </h2>
-        <p className="md:mt-[30px] mt-4 font-color md:text-[18px] font-regular">Con calidad, técnica y ética.</p>
       </div>
 
-      <div className="relative md:mt-[100px] mt-20 flex flex-col md:flex-row-reverse md:justify-start items-center">
+      {/* <div className=" md:mt-[100px] mt-20 flex flex-col md:flex-row-reverse md:justify-start items-center">
         <img src="/HomePhoto1.png" alt="" className="w-[400px] lg:w-[700px]" />
         <div className="bg-gray-400 md:w-[760px] xl:w-[900px] md:bottom-[-77px] right-0 md:h-[487px] flex items-center justify-center">
           <div className="flex flex-col space-y-10">
@@ -63,16 +63,28 @@ const Home = () => {
             </p>
           </div>
         </div>
+      </div> */}
+
+
+      <div className="relative md:mt-[100px]  mt-10 flex flex-col md:flex-row-reverse md:justify-start items-center ">
+        <img src="/Forjamos.png" alt="" className="2xl:w-full xl:w-[600px] lg:w-[500px] md:w-[550px] w-[450px] md:h-[591px]" />
+        <div className="flex md:w-[760px] xl:w-full w-full md:bottom-[-77px] items-center justify-center bg-gray-400 md:h-[500px]  z-10">
+          <div className="flex flex-col space-y-10">
+            <p className="xl:mx-36 mx-10 text-white text-xl text-justify font-regular leading-[35px] tracking-wide xl:w-[500px]">
+            Forjamos una relación cliente - abogado, que sea tan confiable, cercana y transparente, que la colaboración conjunta pueda perdurar y trascender más allá de algún asunto en particular. Por ende, los miembros de la Firma dedican todo su esfuerzo y habilidad profesional para obtener los mejores resultados de una forma técnica, eficaz y ética en favor de nuestros clientes.
+            </p>
+          </div>
+        </div>
       </div>
 
       <PerfilContent />
 
-      <div className="flex justify-end md:mt-32 mt-10 mx-10 md:mx-0 md:mr-[288px] fontcolor font-bold text-[30px]">
+      {/* <div className="flex justify-end md:mt-32 mt-10 mx-10 md:mx-0 md:mr-[288px] fontcolor font-bold text-[30px]">
         <h4 className="w-[350px]">¡Ponte en contacto con nosotros!</h4>
         <Link href="/Contacto">
           <img src="FlechaGrande.png" className="md:w-[50px] md:h-[35px] w-[40px] h-[25px] mt-[80px] cursor-pointer" alt="" />
         </Link>
-      </div>
+      </div> */}
 
       <Footer />
     </div>

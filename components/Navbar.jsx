@@ -19,8 +19,8 @@ const Navbar = () => {
     }
 
     return (
-        <div className="fixed left-0 top-0 w-full z-10 ease-in duration-300 bg-white">
-            <div className="2xl:max-w-[1750px] max-w-[1240px] m-auto flex justify-between items-center p-4">
+        <div className="fixed left-0 top-0 w-full z-50 ease-in duration-300 bg-white">
+            <div className=" max-w-[1240px] m-auto flex justify-between items-center p-4">
                 <Link href='/Home'>
                     <div className="cursor-pointer">
                         <Image src={logo}
@@ -33,27 +33,30 @@ const Navbar = () => {
                 <ul className="hidden sm:flex text-sm uppercase space-x-5 font-bold leading-[5] tracking-[19] ">
                     <li className="p-4">
                         <Link href="/Home">
-                            <a className={currentRoute === "/Home" ? "text-black" : "text-gray-400"}>Home</a>
+                            <a className={currentRoute === "/Home" ? "text-black underline underline-offset-4" : "text-gray-400"}>Home</a>
                         </Link>
                     </li>
                     <li className="p-4">
                         <Link href="/Servicios">
-                            <a className={currentRoute === "/Servicios" ? "text-black" : "text-gray-400"}>Servicios</a>
+                            <a className={currentRoute === "/Servicios" ? "text-black underline underline-offset-4" : "text-gray-400"}>Servicios</a>
                         </Link>
                     </li>
                     <li className="p-4">
                         <Link href="/Nosotros">
-                            <a className={currentRoute === "/Nosotros" ? "text-black" : "text-gray-400"}>Nosotros</a>
+                            <a className={currentRoute === "/Nosotros" ? "text-black underline underline-offset-4" : "text-gray-400"}>Nosotros</a>
                         </Link>
                     </li>
-                    <li className="p-4">
-                        <Link href="/Contacto">
-                            <a className={currentRoute === "/Contacto" ? "text-black" : "text-gray-400"}>Contactános
-                            </a>
-                        </Link>
-                    </li>
+                   
                     
                 </ul>
+                
+                <Link href="/Contacto">
+                    <a className={currentRoute === "/Contacto" ? "text-black text-sm uppercase font-bold leading-[5] tracking-[19] hidden md:block" : "text-gray-400 text-sm uppercase font-bold leading-[5] tracking-[19] hidden md:block"}>Contactános  <span className="text-2xl font-light ml-2">{'\u2192'}</span>
+                    </a>
+                </Link>
+                
+
+
                 {/* Mobile Button Icon */}
                 <div onClick={handleNav} className="block sm:hidden z-10 text-black">
                     {nav ? <AiOutlineClose size={20}/> : <AiOutlineMenu size={20}/>}
