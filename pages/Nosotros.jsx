@@ -9,7 +9,7 @@ const Nosotros = () => {
     <div>
       <Title />
       <Hero
-        heading="Nuestros socios fundadores"
+        heading2="Nuestros socios fundadores"
         size="md:h-[600px] h-[200px]"
         isBold={true}
         fontSize="md:text-[56px] text-[36px]"

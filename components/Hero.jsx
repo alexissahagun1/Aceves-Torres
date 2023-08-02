@@ -11,12 +11,12 @@ const Hero = ({ heading, heading2, size, isBold, fontSize, bgPhoto1, bgPhoto2, b
           <img src={bgPhoto4} className="absolute -top-20 right-10 -z-0" alt="" />
           <img src={bgPhoto5} className="absolute md:-top-20  scale-50 md:scale-100 -top-36  -z-0 " alt="" />
           <h2
-            className={`md:text-4xl text-3xl md:pb-10  z-10 ${isBold ? 'font-bold' : 'font-medium'} ${fontSize}`}
+            className={`md:text-4xl text-3xl md:pb-10   z-10 ${isBold ? 'font-bold' : 'font-medium'} ${fontSize}`}
           >
             {heading}
           </h2>
           <h2
-            className={`md:text-4xl text-xl md:pb-10 md:w-[930px] z-10 ${isBold ? 'font-bold' : 'font-medium'} ${fontSize}`}
+            className={`md:text-4xl text-xl md:pb-10 lg:w-[730px] md:w-[630px] z-10 ${isBold ? 'font-bold' : 'font-medium'} ${fontSize}`}
           >
             {heading2}
           </h2>

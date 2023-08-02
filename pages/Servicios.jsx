@@ -34,10 +34,10 @@ const Servicios = () => {
                         fontSize="md:text-[56px] text-[36px]"
                         bgPhoto4="LogoATBannerChico.png"
                     />
-                </div>
+            </div>
 
                 
-                <div className='flex justify-center 2xl:-mt-[260px] '>
+                <div className='flex justify-center lg:-mt-[260px] '>
                     <Image
                     src="/FotoServicios1.png"
                     alt="My Image"
