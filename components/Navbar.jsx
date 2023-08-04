@@ -21,7 +21,7 @@ const Navbar = () => {
     return (
         <div className="fixed left-0 top-0 w-full z-50 ease-in duration-300 bg-white">
             <div className=" max-w-[1240px] m-auto flex justify-between items-center p-4">
-                <Link href='/Home'>
+                <Link href='/Inicio'>
                     <div className="cursor-pointer">
                         <Image src={logo}
                         width={299}
@@ -32,18 +32,18 @@ const Navbar = () => {
                 </Link>
                 <ul className="hidden sm:flex text-sm uppercase space-x-5 font-bold leading-[5] tracking-[19] ">
                     <li className="p-4">
-                        <Link href="/Home">
-                            <a className={currentRoute === "/Home" ? "text-black underline underline-offset-4" : "text-gray-400"}>Home</a>
+                        <Link href="/Inicio">
+                            <a className={currentRoute === "/Inicio" ? "fontcolor underline underline-offset-4" : "text-gray-400"}>Inicio</a>
                         </Link>
                     </li>
                     <li className="p-4">
                         <Link href="/Servicios">
-                            <a className={currentRoute === "/Servicios" ? "text-black underline underline-offset-4" : "text-gray-400"}>Servicios</a>
+                            <a className={currentRoute === "/Servicios" ? "fontcolor underline underline-offset-4" : "text-gray-400"}>Servicios</a>
                         </Link>
                     </li>
                     <li className="p-4">
                         <Link href="/Nosotros">
-                            <a className={currentRoute === "/Nosotros" ? "text-black underline underline-offset-4" : "text-gray-400"}>Nosotros</a>
+                            <a className={currentRoute === "/Nosotros" ? "fontcolor underline underline-offset-4" : "text-gray-400"}>Nosotros</a>
                         </Link>
                     </li>
                    
@@ -51,7 +51,7 @@ const Navbar = () => {
                 </ul>
                 
                 <Link href="/Contacto">
-                    <a className={currentRoute === "/Contacto" ? "text-black text-sm uppercase font-bold leading-[5] tracking-[19] hidden md:block" : "text-gray-400 text-sm uppercase font-bold leading-[5] tracking-[19] hidden md:block"}>Contactános  <span className="text-2xl font-light ml-2">{'\u2192'}</span>
+                    <a className={currentRoute === "/Contacto" ? "fontcolor text-sm uppercase font-bold leading-[5] tracking-[19] hidden md:block" : "text-gray-400 text-sm uppercase font-bold leading-[5] tracking-[19] hidden md:block"}>Contactános  <span className="text-2xl font-light ml-2">{'\u2192'}</span>
                     </a>
                 </Link>
                 
@@ -65,7 +65,7 @@ const Navbar = () => {
                 <div className={nav ? "sm:hidden absolute top-0 left-0 right-0 bottom-0 flex justify-center items-center backdrop-blur bg-white/30 w-full h-screen  text-center ease-in duration-300" :  "sm:hidden opacity-100 absolute top-0 left-[100%] right-0 bottom-0 flex justify-center items-center backdrop-blur bg-white/30 w-full h-screen  text-center ease-in duration-300"}>
                     <ul className="space-y-5">
                         <li onClick={handleNav}  className="text-2xl hover:text-white">
-                            <Link href="/Home">Home</Link>
+                            <Link href="/Inicio">Inicio</Link>
                         </li>
                         <li onClick={handleNav}  className="text-2xl hover:text-white">
                             <Link href="/Servicios">Servicios</Link>

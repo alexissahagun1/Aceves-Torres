@@ -30,9 +30,12 @@ const Servicios = () => {
                 <Hero
                         heading="Servicios"
                         size="md:h-[600px] h-[300px] "
+                        heading1Size="lg:w-[730px] md:w-[630px] "
+                        itemsPosition="items-center"
                         isBold={true}
                         fontSize="md:text-[56px] text-[36px]"
-                        bgPhoto4="LogoATBannerChico.png"
+                        bgPhoto1="LogoATBannerChico.png"
+                        bgPhotoSizing="absolute -top-20 right-10 -z-0"
                     />
             </div>
 
@@ -62,7 +65,7 @@ const Servicios = () => {
 
 
 
-            <div className="relative md:mt-[100px]  mt-10 flex flex-col md:flex-row md:justify-start items-center bg-gray-300">
+            {/* <div className="relative md:mt-[100px]  mt-10 flex flex-col md:flex-row md:justify-start items-center bg-gray-300">
                 <img src="/ServiciosLastPhoto.png" alt="" className="lg:w-[900px] md:w-[550px] w-[450px]" />
                 <div className="xl:w-[900px] md:bottom-[-77px] flex items-center justify-center">
                 <div className="flex flex-col space-y-10">
@@ -74,7 +77,23 @@ const Servicios = () => {
                     </p>
                 </div>
                 </div>
-            </div>
+            </div> */}
+
+
+            
+      <div className="relative  flex flex-col md:flex-row md:justify-start items-center ">
+        <img src="/ServiciosLastPhoto.png" alt="" className="2xl:w-[900px] xl:w-[600px] lg:w-[500px] md:w-[550px] w-[450px] md:h-[591px]" />
+        <div className="flex md:w-[760px] xl:w-full w-full md:bottom-[-77px] items-center justify-center bg-gray-300 md:h-[500px]  z-10">
+          <div className="flex flex-col space-y-10 textSizeHome md:p-0 p-10">
+            <h3 className="xl:mx-36 mx-10 fontcolor text-[40px] text-justify font-bold leading-[35px] tracking-wide xl:w-[500px]">
+                Practicas anticorrupción
+            </h3>
+            <p className="xl:mx-36 mx-10 fontcolor text-xl text-justify font-regular leading-[48px] tracking-wide">
+            La firma y sus integrantes nos hemos ceñido a diversos ordenamientos e iniciativas de prácticas de ética profesional y anticorrupción, como lo son (i) el Código de Ética Profesional de la Barra Mexicana, Colegio de Abogados y (ii) la Iniciativa de Integridad Judicial de la International Bar Association: Compromiso de Anticorrupción Judicial.
+            </p>
+          </div>
+        </div>
+      </div>
     
 
 
