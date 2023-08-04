@@ -11,9 +11,9 @@ const Nosotros = () => {
       <Hero
         heading="Nuestros socios fundadores"
         heading1Size=""
-        size="md:h-[600px] h-[200px]"
+        size="md:pt-10 mt-[75px]"
         isBold={true}
-        itemsPosition="md:items-start xl:pl-[300px] md:pl-[100px]  items-center "
+        itemsPosition="md:items-start xl:pl-[300px] md:pl-[100px] md:py-[200px] py-[100px] items-center "
         fontSize="md:text-[56px] text-[36px]"
         bgPhoto1="LogoATBlanco.png"
         bgPhotoSizing="absolute md:-top-20  scale-50 md:scale-100 -top-36  -z-0 "

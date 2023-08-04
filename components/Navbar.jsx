@@ -31,17 +31,17 @@ const Navbar = () => {
 
                 </Link>
                 <ul className="hidden sm:flex text-sm uppercase space-x-5 font-bold leading-[5] tracking-[19] ">
-                    <li className="p-4">
+                    <li className="md:p-4">
                         <Link href="/Inicio">
                             <a className={currentRoute === "/Inicio" ? "fontcolor underline underline-offset-4" : "text-gray-400"}>Inicio</a>
                         </Link>
                     </li>
-                    <li className="p-4">
+                    <li className="md:p-4">
                         <Link href="/Servicios">
                             <a className={currentRoute === "/Servicios" ? "fontcolor underline underline-offset-4" : "text-gray-400"}>Servicios</a>
                         </Link>
                     </li>
-                    <li className="p-4">
+                    <li className="md:p-4">
                         <Link href="/Nosotros">
                             <a className={currentRoute === "/Nosotros" ? "fontcolor underline underline-offset-4" : "text-gray-400"}>Nosotros</a>
                         </Link>
@@ -62,7 +62,7 @@ const Navbar = () => {
                     {nav ? <AiOutlineClose size={20}/> : <AiOutlineMenu size={20}/>}
                 </div>
                 {/* Mobile Menu */}
-                <div className={nav ? "sm:hidden absolute top-0 left-0 right-0 bottom-0 flex justify-center items-center backdrop-blur bg-white/30 w-full h-screen  text-center ease-in duration-300" :  "sm:hidden opacity-100 absolute top-0 left-[100%] right-0 bottom-0 flex justify-center items-center backdrop-blur bg-white/30 w-full h-screen  text-center ease-in duration-300"}>
+                <div className={nav ? "md:hidden absolute top-0 left-0 right-0 bottom-0 flex justify-center items-center backdrop-blur bg-white/30 w-full h-screen  text-center ease-in duration-300" :  "sm:hidden opacity-100 absolute top-0 left-[100%] right-0 bottom-0 flex justify-center items-center backdrop-blur bg-white/30 w-full h-screen  text-center ease-in duration-300"}>
                     <ul className="space-y-5">
                         <li onClick={handleNav}  className="text-2xl hover:text-white">
                             <Link href="/Inicio">Inicio</Link>

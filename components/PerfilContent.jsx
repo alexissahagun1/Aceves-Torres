@@ -19,7 +19,7 @@ const PerfilContent = () => {
                             <div className="lg:mr-20 space-y-8 mt-4 lg:mt-0 mx-4 md:mx-0">
                                 <img src={item.image} className="lg:max-w-md md:max-w-sm object-contain" alt="" />
                             </div>
-                            <p className="font-base text-left md:w-[533px] md:mt-0 mt-6  lg:text-[24px] text-[14px] leading-[36px] text-gray-700 text-justify">{item.body}</p>
+                            <p className="font-base text-left md:w-[533px] md:mt-0 mt-6  lg:text-[24px] text-[18px] leading-[36px] text-gray-700 text-justify">{item.body}</p>
 
                         </div>
                     </div>

@@ -15,7 +15,7 @@ const Contacto = () => {
         <div className="md:mt-[200px] mt-[100px] flex md:flex-row flex-col  md:space-x-[100px] justify-between">
 
           <div className='md:mt-[70px] md:mx-[215px] mx-[25px] '>
-            <h4 className='md:ml-[30px] fontcolor font-bold text-[48px]'>- Contacto</h4>
+            <h4 className='md:ml-[30px] fontcolor font-bold text-[48px]'>Contacto</h4>
             <p className="md:mt-[50px] mt-[25px] font-medium text-[20px]">Ponte en contacto</p>
             <ContactForm/>
 

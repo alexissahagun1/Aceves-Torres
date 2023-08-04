@@ -29,18 +29,19 @@ const Servicios = () => {
             <div className='relative'>
                 <Hero
                         heading="Servicios"
-                        size="md:h-[600px] h-[300px] "
-                        heading1Size="lg:w-[730px] md:w-[630px] "
-                        itemsPosition="items-center"
+                        size="md:py-0 py-10"
+                        heading1Size=""
+                        itemsPosition="md:items-between  md:px-[300px] md:py-[250px] py-[100px] "
                         isBold={true}
                         fontSize="md:text-[56px] text-[36px]"
                         bgPhoto1="LogoATBannerChico.png"
-                        bgPhotoSizing="absolute -top-20 right-10 -z-0"
+                        bgPhotoSizing="absolute -top-20 right-10 scale-50 md:scale-100   -z-0"
+                    
                     />
             </div>
 
                 
-                <div className='flex justify-center lg:-mt-[260px] '>
+                <div className='flex justify-center lg:-mt-[160px]'>
                     <Image
                     src="/FotoServicios1.png"
                     alt="My Image"
@@ -84,7 +85,7 @@ const Servicios = () => {
       <div className="relative  flex flex-col md:flex-row md:justify-start items-center ">
         <img src="/ServiciosLastPhoto.png" alt="" className="2xl:w-[900px] xl:w-[600px] lg:w-[500px] md:w-[550px] w-[450px] md:h-[591px]" />
         <div className="flex md:w-[760px] xl:w-full w-full md:bottom-[-77px] items-center justify-center bg-gray-300 md:h-[500px]  z-10">
-          <div className="flex flex-col space-y-10 textSizeHome md:p-0 p-10">
+          <div className="flex flex-col space-y-10 textSizeHome">
             <h3 className="xl:mx-36 mx-10 fontcolor text-[40px] text-justify font-bold leading-[35px] tracking-wide xl:w-[500px]">
                 Practicas anticorrupción
             </h3>

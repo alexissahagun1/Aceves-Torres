@@ -8,18 +8,21 @@ import Servicios from '../components/Servicios';
 import PerfilContent from '../components/PerfilContent';
 
 const Inicio = () => {
+
   return (
     <div>
       <Title />
       <Hero
+        underline={true}
         heading="Firma de abogados con sede en Guadalajara, Jalisco, especializada en brindar asesoría y patrocinio legal en materias Civil, Mercantil, Societario, Administrativa y Urbana."
-        heading1Size="lg:w-[730px] md:w-[630px]  z-10 ${isBold ? 'font-bold' : 'font-medium'} ${fontSize} "
-        itemsPosition="items-center "
-        size="md:h-[500px] h-[300px]"
+        heading1Size="lg:w-[900px] md:w-[630px]"
+        itemsPosition="items-start lg:pl-[50px]"
+        size=" md:my-[100px] my-[40px]"
         // bgPhoto1="LogoAceves.png"
         // bgPhoto2="LogoAcevesGrande.png"
         bgPhoto1="LogoATBlanco.png"
-        bgPhotoSizing="absolute md:-top-20 md:-left-48 scale-50 md:scale-100 -top-36 right-80 -z-0"
+        // bgPhotoSizing="relative md:-top-20 md:-left-48 scale-50 md:scale-100 -top-36 right-80 -z-0"
+        bgPhotoSizing="relative lg:-right-20 lg:-top-6 scale-50 lg:scale-100 md:block hidden -z-0"
       />
 
       <div className="relative  flex flex-col md:flex-row md:justify-start items-center ">
@@ -81,8 +84,8 @@ const Inicio = () => {
       <div className="relative md:mt-[100px] flex flex-col md:flex-row-reverse md:justify-start items-center ">
         <img src="/Forjamos.png" alt="" className="2xl:w-[900px] xl:w-[600px] lg:w-[500px] md:w-[550px] w-[450px] md:h-[591px]" />
         <div className="flex md:w-[760px] xl:w-full w-full md:bottom-[-77px] items-center justify-center bg-gray-400 md:h-[500px]  z-10">
-          <div className="flex flex-col space-y-10 textSizeHome md:p-0 p-10">
-            <p className="mx-10 text-white text-justify font-regular leading-[35px] tracking-wide xl:w-[500px]">
+          <div className="flex flex-col space-y-10 textSizeHome  md:p-0 p-10">
+            <p className="md:mx-10 text-white text-justify font-regular leading-[35px] tracking-wide xl:w-[500px]">
             Forjamos una relación cliente - abogado, que sea tan confiable, cercana y transparente, que la colaboración conjunta pueda perdurar y trascender más allá de algún asunto en particular. Por ende, los miembros de la Firma dedican todo su esfuerzo y habilidad profesional para obtener los mejores resultados de una forma técnica, eficaz y ética en favor de nuestros clientes.
             </p>
           </div>
