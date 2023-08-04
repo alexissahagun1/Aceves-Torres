@@ -33,7 +33,7 @@ const Inicio = () => {
             Aceves & Torres Abogados fue fundada en 2019, con el objetivo de prestar servicios legales de forma personal, con la más alta exigencia técnica y ética a nuestros clientes.
             </p>
 
-            <p className='mx-10 fontcolor text-justify text-[30px] font-medium leading-[35px] tracking-wide xl:w-[500px]'>Conoce más {'\u2192'}</p>
+            <p className=' fontcolor text-justify text-[30px] font-medium leading-[35px] tracking-wide xl:w-[500px]'>Conoce más {'\u2192'}</p>
           </div>
         </div>
       </div>
