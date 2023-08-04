@@ -19,7 +19,7 @@ const perfilText = [
     },
     {
         id: 4,
-        image: 'TierraYArmonia.png',
+        image: 'TierrayArmonia.png',
         body: "Tierra y Armonía, desarrolladora de bienes raíces, líder en el occidente del país, reconocida con una de las Mejores Empresas Mexicanas (Reconocimiento MEM).",
         
     },
