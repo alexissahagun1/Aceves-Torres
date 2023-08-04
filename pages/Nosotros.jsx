@@ -9,19 +9,22 @@ const Nosotros = () => {
     <div>
       <Title />
       <Hero
-        heading2="Nuestros socios fundadores"
+        heading="Nuestros socios fundadores"
+        heading1Size=""
         size="md:h-[600px] h-[200px]"
         isBold={true}
+        itemsPosition="md:items-start xl:pl-[300px] md:pl-[100px]  items-center "
         fontSize="md:text-[56px] text-[36px]"
-        bgPhoto5="LogoATBlanco.png"
+        bgPhoto1="LogoATBlanco.png"
+        bgPhotoSizing="absolute md:-top-20  scale-50 md:scale-100 -top-36  -z-0 "
       />
 
-      <div className="flex flex-col md:flex-row md:justify-center md:space-x-[150px] md:mt-[50px] md:mx-0 mx-4 md:mb-[200px] mt-10 ">
-        <div className="flex flex-col space-y-10 md:w-[400px]">
-          <h2 className="fontcolor font-semibold text-[24px]">
+      <div className="flex flex-col md:flex-row md:justify-around  md:mt-[50px] md:mx-0 px-20 md:mb-[200px] mt-10 ">
+        <div className="flex flex-col space-y-10 md:w-[450px] text-justify">
+          <h2 className="fontcolor font-semibold text-[36px]">
             Luis Andrés Aceves de la Cruz
           </h2>
-          <p className="tracking-wide">
+          <p className="tracking-wide text-[20px]">
             Socio Fundador de la Firma y líder de los equipos de Derecho
             Corporativo y de la Empresa, así como de Derecho Urbano e
             Inmobiliario.
@@ -54,11 +57,11 @@ const Nosotros = () => {
             <br /> aa@acevestorres.com
           </p>
         </div>
-        <div className="flex flex-col  space-y-4 md:w-[400px] md:mt-0 mt-10">
-          <h2 className="fontcolor font-semibold text-[24px]">
+        <div className="flex flex-col  space-y-4 md:w-[450px] md:mt-0 mt-10">
+          <h2 className="fontcolor font-semibold text-[36px]">
             Gerardo Torres González
           </h2>
-          <p className="tracking-wide">
+          <p className="tracking-wide text-[20px]">
             Socio Fundador de la Firma Aceves y Torres Abogados, líder de los
             equipos de Litigio y Solución de Controversias, así como de Derecho
             Corporativo y de la Empresa.

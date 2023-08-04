@@ -52,7 +52,7 @@ const Footer = () => {
             </div>
 
         </div>
-        <div className="flex flex-col font-bold lg:text-[30px] text-white">
+        <div className="flex flex-col font-bold lg:text-[30px] text-white cursor-pointer">
             <div>
                 <Link href='/Inicio'>
                     <h2 className="">Inicio</h2>

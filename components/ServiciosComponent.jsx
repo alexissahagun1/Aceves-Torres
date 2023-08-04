@@ -10,15 +10,15 @@ const ServiciosComponent = () => {
                     <div className="">
                         <div className="flex flex-col mt-[50px] lg:text-left">
                             <div className="md:mx-24 mx-4 md:space-y-6 space-y-4 fontcolor">
-                                <p className="font-medium text-left xl:text-[28px] lg:text-[28px] text-[20px] leading-[36px]">{item.heading}</p>
-                                <p className="font-base text-left xl:text-[16px] lg:text-[16px] text-[14px] leading-[36px] md:mx-0 mx-2 ">{item.body}</p>
-                                <p className="font-medium text-left xl:text-[20px] lg:text-[18px] text-[18px] leading-[36px] md:mx-0 mx-2">{item.subheading}</p>
+                                <p className="font-medium text-left  lg:text-[35px] text-[20px] leading-[36px]">{item.heading}</p>
+                                <p className="font-base text-justify  lg:text-[20px] text-[18px] leading-[36px] md:mx-0 mx-2 ">{item.body}</p>
+                                <p className="font-medium text-left md:text-[20px] text-[18px] leading-[36px] md:mx-0 mx-2">{item.subheading}</p>
                             </div>
                             <ul className='md:mt-4 mt-4 md:ml-36 md:mx-0 mx-10 space-y-2 md:space-y-0'>
                                 {/* <li className="whitespace-pre-line  font-base text-left md:w-[533px]  xl:text-[20px] lg:text-[18px] text-[14px] leading-[36px] text-gray-700">{item.data}</li> */}
 
                                 {item.data.split('\n').map((i, index) => (
-                                    <li key={index} className='list-disc text-[16px] font-semibold text-left md:w-[550px] fontcolor'>{i}</li>
+                                    <li key={index} className='list-disc text-[20px] font-regular text-left md:w-[550px] fontcolor'>{i}</li>
                                 ))}
                             </ul>
                             <div className="flex justify-end ">

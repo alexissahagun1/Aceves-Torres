@@ -13,7 +13,7 @@ const Beneficios = ({file, headingColor, isUppercase, isScaled, hasMargin, isHid
                         {/* <img src={item.icon} alt="" className={`md:p-[27px] pr-4  md:scale-100 ${isScaled ? "scale-75" : "scale-100"}`}/> */}
                         <div className="flex flex-col text-left space-y-5 fontcolor">
                             <h6 className={`font-semibold ${headingColor} ${isUppercase ? "uppercase" : ""} text-[24px] leading-[18px]`}>{item.heading}</h6>
-                            <p className="font-medium text-[18px] tracking-normal">{item.body}</p>
+                            <p className="font-medium text-[18px] tracking-normal text-justify">{item.body}</p>
                         </div>
                     </div>
                 </div>
