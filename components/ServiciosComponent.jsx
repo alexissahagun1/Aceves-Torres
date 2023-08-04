@@ -10,7 +10,7 @@ const ServiciosComponent = () => {
                     <div className="">
                         <div className="flex flex-col mt-[50px] lg:text-left">
                             <div className="md:mx-24 mx-4 md:space-y-6 space-y-4 fontcolor">
-                                <p className="font-medium text-left  lg:text-[35px] text-[20px] leading-[36px]">{item.heading}</p>
+                                <p className="font-medium text-left  lg:text-[35px] text-[24px] leading-[36px]">{item.heading}</p>
                                 <p className="font-base text-justify  lg:text-[20px] text-[18px] leading-[36px] md:mx-0 mx-2 ">{item.body}</p>
                                 <p className="font-medium text-left md:text-[20px] text-[18px] leading-[36px] md:mx-0 mx-2">{item.subheading}</p>
                             </div>

@@ -19,12 +19,12 @@ const Nosotros = () => {
         bgPhotoSizing="absolute md:-top-20  scale-50 md:scale-100 -top-36  -z-0 "
       />
 
-      <div className="flex flex-col md:flex-row md:justify-around  md:mt-[50px] md:mx-0 px-20 md:mb-[200px] mt-10 ">
+      <div className="flex flex-col md:flex-row md:justify-around  md:mt-[50px] md:mx-0 md:px-20 px-8 md:mb-[200px] mt-10 ">
         <div className="flex flex-col space-y-10 md:w-[450px] text-justify">
           <h2 className="fontcolor font-semibold text-[36px]">
             Luis Andrés Aceves de la Cruz
           </h2>
-          <p className="tracking-wide text-[20px]">
+          <p className="tracking-wide md:text-[20px] text-[18px]">
             Socio Fundador de la Firma y líder de los equipos de Derecho
             Corporativo y de la Empresa, así como de Derecho Urbano e
             Inmobiliario.
@@ -61,7 +61,7 @@ const Nosotros = () => {
           <h2 className="fontcolor font-semibold text-[36px]">
             Gerardo Torres González
           </h2>
-          <p className="tracking-wide text-[20px]">
+          <p className="tracking-wide md:text-[20px] text-[18px]">
             Socio Fundador de la Firma Aceves y Torres Abogados, líder de los
             equipos de Litigio y Solución de Controversias, así como de Derecho
             Corporativo y de la Empresa.

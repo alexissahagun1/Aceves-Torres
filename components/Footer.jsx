@@ -23,7 +23,7 @@ const Footer = () => {
             </div>
             </a>
             <div className="w-56 space-y-4">
-                <p className="tracking-wide text-white text-[16px]">Edificio Corporativo H+C <br /> Herrera y Cairo 2835-3B
+                <p className="tracking-wide text-white font-light text-[16px]">Edificio Corporativo H+C <br /> Herrera y Cairo 2835-3B
                     <br /> CP 4689 <br />
                     Fraccionamiento Terranova
                     Guadalajara, Jalisco, México
@@ -47,7 +47,7 @@ const Footer = () => {
 
             </div>
             <div className='md:mt-[55px] mt-2'>
-                <p className="text-[15px] font-medium tracking-wide text-white">Copyright © 2022. Aceves & Torres Abogados. Todos los derechos reservados.
+                <p className="text-[15px] font-light tracking-wide text-white">Copyright © 2022. Aceves & Torres Abogados. Todos los derechos reservados.
                 </p>
             </div>
 

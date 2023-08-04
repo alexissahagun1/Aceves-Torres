@@ -34,7 +34,7 @@ const Servicios = [
         id: 5,
         number: "05",
         heading: "Aumento en el valor del inmueble",
-        body: "Asesoría y patrocinio en procesos de mediación, conciliación, negociación y arbitraje, en materias de la construcción, deporitvo, familiar, civil y mercantil. ",
+        body: "Asesoría y patrocinio en procesos de mediación, conciliación, negociación y arbitraje, en materias de la construcción, deportivo, familiar, civil y mercantil. ",
         
     },
 ]

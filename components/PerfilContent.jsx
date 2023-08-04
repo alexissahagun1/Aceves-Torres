@@ -4,12 +4,12 @@ import PerfilText from './PerfilText'
 
 const PerfilContent = () => {
     return (
-        <div className="xl:mx-[175px] lg:mx-[75px] lg:mt-[90px] mx-10 mt10 md:mb-[410px]">
+        <div className="xl:mx-[175px] lg:mx-[75px] lg:mt-[90px] mx-10 mt-10 md:mb-[410px]">
 
             <div className='flex flex-col items-center space-y-10'>
                 <h6 className='customGrey font-medium md:text-[40px] text-[32px] tracking-wide'>Perfil de Nuestros Clientes</h6>
 
-                <p className='fontcolor md:w-[1000px] text-[24px] text-justify'>El perfil de los clientes de Aceves & Torres son empresas nacionales o extranjeras, cuyos giros empresariales tienen conexión con algún tema jurídico en nuestro país, en diferentes industrias como lo serían:</p>
+                <p className='fontcolor md:w-[1000px] md:text-[24px] text-[18px] text-justify'>El perfil de los clientes de Aceves & Torres son empresas nacionales o extranjeras, cuyos giros empresariales tienen conexión con algún tema jurídico en nuestro país, en diferentes industrias como lo serían:</p>
             </div>
 
             {PerfilText && PerfilText.map((item) =>
