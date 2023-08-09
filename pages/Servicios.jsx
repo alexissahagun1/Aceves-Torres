@@ -29,13 +29,13 @@ const Servicios = () => {
             <div className='relative'>
                 <Hero
                         heading="Servicios"
-                        size="md:py-0 py-10"
+                        size="md:pt-10 mt-[75px]"
                         heading1Size=""
-                        itemsPosition="md:items-between  md:px-[300px] md:py-[250px] py-[100px] "
+                        itemsPosition="md:items-start xl:pl-[300px] md:pl-[100px] md:py-[200px] py-[100px] items-center"
                         isBold={true}
                         fontSize="md:text-[56px] text-[42px]"
-                        bgPhoto1="LogoATBannerChico.png"
-                        bgPhotoSizing="absolute -top-20 md:right-10 right-0 scale-50 md:scale-100   -z-0"
+                        bgPhoto1="LogoATBlanco.png"
+                        bgPhotoSizing="absolute xl:-top-30 md:-top-36  scale-50 md:scale-100 -top-36-z-0 "
                     
                     />
             </div>

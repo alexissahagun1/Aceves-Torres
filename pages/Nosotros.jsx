@@ -24,7 +24,7 @@ const Nosotros = () => {
           <h2 className="fontcolor font-semibold text-[36px]">
             Luis Andrés Aceves de la Cruz
           </h2>
-          <p className="tracking-wide md:text-[20px] text-[18px]">
+          <p className="tracking-wide md:text-[20px] text-[18px] text-justify">
             Socio Fundador de la Firma y líder de los equipos de Derecho
             Corporativo y de la Empresa, así como de Derecho Urbano e
             Inmobiliario.
@@ -61,7 +61,7 @@ const Nosotros = () => {
           <h2 className="fontcolor font-semibold text-[36px]">
             Gerardo Torres González
           </h2>
-          <p className="tracking-wide md:text-[20px] text-[18px]">
+          <p className="tracking-wide md:text-[20px] text-[18px] text-justify">
             Socio Fundador de la Firma Aceves y Torres Abogados, líder de los
             equipos de Litigio y Solución de Controversias, así como de Derecho
             Corporativo y de la Empresa.

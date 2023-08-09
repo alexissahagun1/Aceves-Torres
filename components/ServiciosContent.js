@@ -38,7 +38,7 @@ const Servicios = [
         number: "04",
         icon: 'MASC.png',
         heading: "Derecho Contractual",
-        body: "Incluye la asesoría, diseño, negociación y cierre de todo tipo de contratos civiles y mercantiles, con el fin de lograr que sus negocios funcionen de manera adecuada bajo el marco normativo vigente. De manera enunciativa más no limitativa se enlistan los siguientes contratos incluidos dentro de nuestra propuesta de servicios en materia de derecho contractual:",
+        body: "Asesoría, diseño, negociación y cierre de todo tipo de contratos civiles y mercantiles, con el fin de lograr que sus negocios funcionen de manera adecuada bajo el marco normativo vigente. De manera enunciativa más no limitativa se enlistan los siguientes contratos incluidos dentro de nuestra propuesta de servicios en materia de derecho contractual:",
         subheading: "",
         data: "Compraventa\nFideicomisos\nArrendamiento\nDonación\nConfidencialidad\nDistribución\nSuministro\nComisión\nMutuo\nIntermediación\nPrestación de Servicios\nContratos de Obra.\nDerechos de Paso\nContratos de Administración\nCartas intención\nMemorándums de entendimiento\nConvenios de Corresponsabilidad",
         logo: "DerechoContra.png"

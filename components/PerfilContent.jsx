@@ -9,7 +9,7 @@ const PerfilContent = () => {
             <div className='flex flex-col items-center space-y-10'>
                 <h6 className='customGrey font-medium md:text-[40px] text-[32px] tracking-wide'>Perfil de Nuestros Clientes</h6>
 
-                <p className='fontcolor md:w-[1000px] md:text-[24px] text-[18px] text-justify'>El perfil de los clientes de Aceves & Torres son empresas nacionales o extranjeras, cuyos giros empresariales tienen conexión con algún tema jurídico en nuestro país, en diferentes industrias como lo serían:</p>
+                <p className='fontcolor md:w-[1000px] md:text-[24px] text-[18px] text-justify'>El perfil de los clientes de Aceves & Torres son empresas nacionales o extranjeras, cuyos giros empresariales en diferentes industrias tienen conexión con algún tema jurídico en nuestro país, como lo serían:</p>
             </div>
 
             {PerfilText && PerfilText.map((item) =>
