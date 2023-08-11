@@ -2,6 +2,7 @@ import React from 'react';
 import Footer from '../components/Footer';
 import Hero from '../components/Hero';
 import Title from '../components/Title';
+import EquipoComponent from '../components/EquipoComponent';
 
 
 const Nosotros = () => {
@@ -105,6 +106,10 @@ const Nosotros = () => {
         </div>
       </div>
 
+
+      <EquipoComponent/>
+
+    
 
 
 
