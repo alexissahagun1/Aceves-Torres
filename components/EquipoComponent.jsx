@@ -6,7 +6,7 @@ const EquipoComponent = () => {
 
     return (
         <div className='flex flex-row bg-gray-200 py-20 '>
-            <div className="flex flex-col 2xl:mx-64 lg:mx-36 md:mx-16 mx-4" >
+            <div className="flex flex-col 2xl:mx-64 lg:mx-40 md:mx-16 mx-4" >
                 <h4 className='   mx-4 font-medium text-left uppercase fontcolor lg:text-[35px] text-[24px] leading-[36px] md:py-8 py-4'>Equipo</h4>
                 {Equipo && Equipo.map((item) =>
                         <div className='text-center w-full flex flex-col lg:mb-[50px] mb-[20px]' key={item.id}>

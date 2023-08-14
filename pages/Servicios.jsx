@@ -33,7 +33,7 @@ const Servicios = () => {
                         heading1Size=""
                         itemsPosition="md:items-start xl:pl-[300px] md:pl-[100px] md:py-[200px] py-[100px] items-center"
                         isBold={true}
-                        fontSize="md:text-[56px] text-[42px]"
+                        fontSize="md:text-[56px] text-[42px] pl-[100px]"
                         bgPhoto1="LogoATBlanco.png"
                         bgPhotoSizing="absolute xl:-top-30 md:-top-36  scale-50 md:scale-100 -top-36-z-0 "
                     
