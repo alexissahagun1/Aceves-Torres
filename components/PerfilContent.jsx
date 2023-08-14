@@ -7,7 +7,7 @@ const PerfilContent = () => {
         <div className="xl:mx-[175px] lg:mx-[75px] lg:mt-[90px] mx-10 mt-10 md:mb-[410px]">
 
             <div className='flex flex-col items-center space-y-10'>
-                <h6 className='customGrey font-medium md:text-[40px] text-[32px] tracking-wide'>Perfil de Nuestros Clientes</h6>
+                <h6 className='customGrey font-base md:text-[40px] text-[32px] tracking-wider'>Perfil de Nuestros Clientes</h6>
 
                 <p className='fontcolor md:w-[1000px] md:text-[24px] text-[18px] text-justify'>El perfil de los clientes de Aceves & Torres son empresas nacionales o extranjeras, cuyos giros empresariales en diferentes industrias tienen conexión con algún tema jurídico en nuestro país, como lo serían:</p>
             </div>
