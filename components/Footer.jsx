@@ -12,7 +12,7 @@ const Footer = () => {
 
     
 <footer style={{backgroundColor: "#364156"}} className="p-4 sm:p-6 dark:bg-gray-900  border-t-2 border-gray-300">
-    <div className="md:flex justify-center  xl:space-x-[350px] md:space-x-[200px] md:items-center">
+    <div className="md:flex md:justify-around justify-center md:mx-20  xl:space-x-[350px] md:space-x-[200px] md:items-center">
         <div className="flex flex-col mb-6 md:mb-0  xl:items-start">
             <a href="https://acevestorres.com" className="flex items-center md:mt-6">
             <div className="">

@@ -20,7 +20,8 @@ const Navbar = () => {
 
     return (
         <div className="fixed left-0 top-0 w-full z-50 ease-in duration-300 bg-white">
-            <div className=" max-w-[1240px] m-auto flex justify-between items-center p-4">
+            {/* <div className=" max-w-[1240px] m-auto flex justify-between items-center p-4"> */}
+            <div className="flex justify-around md:mx-28 items-center p-4">
                 <Link href='/Inicio'>
                     <div className="cursor-pointer">
                         <Image src={logo}
