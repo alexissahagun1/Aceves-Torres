@@ -1,6 +1,13 @@
 import Head from 'next/head'
 
+
+
 export default function Inicio() {
+
+ 
+
+  
+
   return (
     <div>
       <Head>

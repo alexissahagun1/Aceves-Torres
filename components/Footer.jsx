@@ -70,7 +70,12 @@ const Footer = () => {
             </div>
             <div>
                 <Link href='/Contacto'>
-                    <h2 className="text-[18px] font-normal mt-6">Contacto</h2>
+                    <h2 className="text-[18px] font-normal mt-6 cursor-pointer">Contacto</h2>
+                </Link>
+            </div>
+            <div>
+                <Link href='/TyC'>
+                    <h2 className="text-[16px] font-normal mt-6 cursor-pointer">Términos y Condiciones</h2>
                 </Link>
             </div>
            

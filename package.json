@@ -6,10 +6,13 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "postinstall": "npm run download-webviewer",
+    "download-webviewer": "npx @pdftron/webviewer-downloader"
   },
   "dependencies": {
     "@emailjs/browser": "^3.6.2",
+    "@pdftron/webviewer": "^10.3.0",
     "@react-google-maps/api": "^2.18.1",
     "emailjs-com": "^3.2.0",
     "file-loader": "^6.2.0",
@@ -22,9 +25,9 @@
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-floating-whatsapp": "^5.0.8",
-    "react-google-maps": "^9.4.5",
     "react-icons": "^4.4.0",
     "react-multi-carousel": "^2.8.2",
+    "react-pdf": "^7.3.3",
     "react-responsive-carousel": "^3.2.23",
     "react-toastify": "^9.0.8"
   },
@@ -33,6 +36,7 @@
     "eslint": "8.21.0",
     "eslint-config-next": "^12.0.4",
     "postcss": "^8.4.14",
+    "raw-loader": "^4.0.2",
     "tailwindcss": "^3.1.7"
   }
 }
