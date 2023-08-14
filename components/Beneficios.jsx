@@ -9,7 +9,7 @@ const Beneficios = ({file, headingColor, isUppercase, isScaled, hasMargin, isHid
                {file && file.map((item) =>
                 <div className={`flex flex-col  md:my-[20px] my-[30px]   ${hasMargin ? "mx-6" : "mx-0"}`} key={item.id}>
                     <div className='flex items-start '>
-                    <p style={{color: '#929ca9'}} className="font-bold text-[24px] tracking-normal md:mr-[40px] mr-4">{item.number}</p>
+                    <p style={{color: '#929ca9'}} className="font-bold text-[24px] tracking-normal md:mr-[40px] mr-4">{item.logo}</p>
                         {/* <img src={item.icon} alt="" className={`md:p-[27px] pr-4  md:scale-100 ${isScaled ? "scale-75" : "scale-100"}`}/> */}
                         <div className="flex flex-col text-left md:space-y-5 space-y-4 fontcolor">
                             <h6 className={`font-semibold ${headingColor} ${isUppercase ? "uppercase" : ""} text-[24px] md:leading-[18px] leading-[28px]`}>{item.heading}</h6>
