@@ -16,7 +16,7 @@ const Contacto = () => {
 
           <div className='md:mt-[70px] md:mx-[215px] mx-[25px] '>
             <h4 className='md:ml-[30px] fontcolor font-bold text-[48px]'>Contacto</h4>
-            <p className="md:mt-[50px] mt-[25px] font-medium text-[20px]">Ponte en contacto</p>
+            <p className="md:mt-[50px] fontcolor mt-[25px] font-medium text-[20px]">Ponte en contacto</p>
             <ContactForm/>
 
             <div className='md:block hidden'>
@@ -38,7 +38,7 @@ const Contacto = () => {
 
               <p className='underline underline-offset-8 decoration-2'>Email</p>
 
-              <p className='underline underline-offset-8 decoration-2'>contacto@acevestorres.com</p>
+              <p className=''>contacto@acevestorres.com</p>
 
             </div>
 

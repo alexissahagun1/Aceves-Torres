@@ -65,7 +65,7 @@ const ContactForm = ({isOverlapped}) => {
                                   class="w-full p-2 text-sm  border-t-0 border-r-0 border-l-0 border-black focus:outline-none focus:ring-0 focus:border-gray-900 opacity-50 "
                                   placeholder="Número telefónico" />
                             </div>
-                            <div class="sm:col-span-2 md:mt-[40px]">
+                            <div class="fontcolor sm:col-span-2 md:mt-[40px]">
                                 <p>¿Cómo podemos ayudarte?</p>
                             </div>
                             <div class="sm:col-span-2">
@@ -75,7 +75,7 @@ const ContactForm = ({isOverlapped}) => {
                             </div>
 
                             <div className='flex justify-end sm:col-span-2'>
-                              <button type="submit" className='border-none outline-none focus:ring-0 underline underline-offset-4 decoration-1'>
+                              <button type="submit" className='border-none outline-none focus:ring-0 underline underline-offset-4 decoration-1 fontcolor'>
                                 Enviar
                               </button>
                             </div>
