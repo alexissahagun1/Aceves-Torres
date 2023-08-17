@@ -19,7 +19,7 @@ const Hero = ({ underline, heading, heading1Size, heading2Size, heading3Size, si
           <img src={bgPhoto4} className="absolute -top-20 right-10 -z-0" alt="" />
           <img src={bgPhoto5} className="absolute md:-top-20  scale-50 md:scale-100 -top-36  -z-0 " alt="" /> */}
           <h2
-            className={`md:text-4xl text-xl md:pb-10 md:leading-[60px] text-justify ${heading1Size} ${heading2Size} ${heading3Size}  z-10 ${isBold ? 'font-bold' : 'font-medium'} ${fontSize}  `}
+            className={`md:text-4xl text-xl  md:leading-[60px] text-justify ${heading1Size} ${heading2Size} ${heading3Size}  z-10 ${isBold ? 'font-bold' : 'font-medium'} ${fontSize}  `}
           >
             {/* {underline ? underlineWords : heading} */}
             {heading}

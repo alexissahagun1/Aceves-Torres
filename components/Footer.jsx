@@ -75,7 +75,7 @@ const Footer = () => {
             </div>
             <div>
                 <Link href='/TyC'>
-                    <h2 className="text-[18px] font-normal mt-2 cursor-pointer">Términos y Condiciones</h2>
+                    <h2 className="text-[18px] font-normal mt-2 cursor-pointer">Aviso de Privacidad</h2>
                 </Link>
             </div>
            
