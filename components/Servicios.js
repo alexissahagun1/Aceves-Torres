@@ -26,7 +26,7 @@ const Servicios = [
         id: 4,
         logo: "BulletPoint.png",
         heading: "Derecho Contractual",
-        body: "Incluye la asesoría, diseño, negociación y cierre de todo tipo de contratos civiles y mercantiles, con el fin de lograr que sus negocios funcionen de manera adecuada bajo el marco normativo vigente",
+        body: "Incluye la asesoría, diseño, negociación y cierre de todo tipo de contratos civiles y mercantiles, con el fin de lograr que sus negocios funcionen de manera adecuada bajo el marco normativo vigente.",
         
     },
     {
