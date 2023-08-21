@@ -33,7 +33,7 @@ const Servicios = [
         id: 5,
         logo: "BulletPoint.png",
         heading: "Métodos Alternos de Solución de Conflictos",
-        body: "Incluye la asesoría, diseño, negociación y cierre de todo tipo de contratos civiles y mercantiles, con el fin de lograr que sus negocios funcionen de manera adecuada bajo el marco normativo vigente.",
+        body: "Asesoría y patrocinio en proceso de mediación, conciliación, negociación y arbitraje en distintas materias, como en construcción, deportivo, familiar, civil y mercantil.",
 
         
     },
