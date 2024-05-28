@@ -21,7 +21,7 @@ const Nosotros = () => {
       />
 
       <div className="flex flex-col lg:flex-row md:justify-around md:mt-[50px] md:mx-0 lg:px-20 px-8 md:mb-[200px] mt-10 ">
-        <div className="flex flex-col space-y-10 md:w-[500px] text-justify">
+        <div className="flex flex-col space-y-4 md:w-[500px] text-justify">
           <h2 className="fontcolor font-semibold text-[36px]">
             Luis Andrés Aceves de la Cruz
           </h2>
