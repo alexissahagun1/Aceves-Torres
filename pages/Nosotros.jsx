@@ -20,8 +20,8 @@ const Nosotros = () => {
         bgPhotoSizing="absolute md:-top-20  scale-50 md:scale-100 -top-36  -z-0 "
       />
 
-      <div className="flex flex-col md:flex-row md:justify-around md:mt-[50px] md:mx-0 md:px-20 px-8 md:mb-[200px] mt-10 ">
-        <div className="flex flex-col space-y-10 md:w-[450px] text-justify">
+      <div className="flex flex-col lg:flex-row md:justify-around md:mt-[50px] md:mx-0 lg:px-20 px-8 md:mb-[200px] mt-10 ">
+        <div className="flex flex-col space-y-10 md:w-[500px] text-justify">
           <h2 className="fontcolor font-semibold text-[36px]">
             Luis Andrés Aceves de la Cruz
           </h2>
@@ -58,7 +58,7 @@ const Nosotros = () => {
             <br /> aa@acevestorres.com
           </p>
         </div>
-        <div className="flex flex-col  space-y-4 md:w-[450px] md:mt-0 mt-10">
+        <div className="flex flex-col  space-y-4 md:w-[500px] md:mt-0 mt-10">
           <h2 className="fontcolor font-semibold text-[36px]">
             Gerardo Torres González
           </h2>
