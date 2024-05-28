@@ -15,13 +15,6 @@ const Equipo = [
     },
     {
         id: 3,
-        heading: "Juan Pablo Álvarez Lozoya",
-        body: "Legal Staff, forma parte del área de práctica de Litigio y Solución de Conflictos.",
-
-        
-    },
-    {
-        id: 4,
         heading: "Jimena Ibarra Castillo",
         body: "Legal Staff, forma parte del área de práctica de Derecho Administrativo e Inmobiliario.",
 
@@ -29,7 +22,7 @@ const Equipo = [
     },
    
     {
-        id: 5,
+        id: 4,
         heading: "Bruno Aldrete Ramírez",
         body: "Legal Staff, forma parte del área de práctica de Litigio y Solución de Conflictos.",
 

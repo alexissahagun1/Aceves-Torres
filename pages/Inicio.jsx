@@ -39,8 +39,8 @@ const Inicio = () => {
               </Link>
             </div>
             <img src="/Logo_Chambers.png" alt="" className='lg:w-1/2 w-1/8 mx-auto block'  />
-            <p className="text-white text-justify leading-[35px] tracking-wide xl:w-[500px]">
-                Aceves & Torres Abogados is a solid Guadalajara - based practice that is often seen representing clients in corporate and M&A deals. The legal team is also adept at handling real estate transactions, as well as civil and commercial litigation mandates. The law firm is routinely retained by clients from the technology and real estate spheres.
+            <p className="text-white text-justify leading-[35px] tracking-wide xl:w-[500px] italic ">
+                Aceves & Torres Abogados is a solid Guadalajara - based practice that is often seen representing clients in corporate and M&A deals. The legal team is also adept at handling real estate transactions, as well as civil and commercial litigation mandates. The law firm is routinely retained by clients from the technology and real estate spheres. <br /> Provided by Chambers.
             </p>
         </div>
     </div>
@@ -101,7 +101,7 @@ const Inicio = () => {
         </div>
       </div>
 
-      <PerfilContent />
+      {/* <PerfilContent /> */}
 
       {/* <div className="flex justify-end md:mt-32 mt-10 mx-10 md:mx-0 md:mr-[288px] fontcolor font-bold text-[30px]">
         <h4 className="w-[350px]">¡Ponte en contacto con nosotros!</h4>
