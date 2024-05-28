@@ -21,17 +21,17 @@ const Navbar = () => {
     return (
         <div className="fixed left-0 top-0 w-full z-50 ease-in duration-300 bg-white">
             {/* <div className=" max-w-[1240px] m-auto flex justify-between items-center p-4"> */}
-            <div className="flex justify-around md:mx-28 items-center p-4">
+            <div className="flex justify-center space-x-32  items-center p-4">
                 <Link href='/Inicio'>
-                    <div className="cursor-pointer lg:scale-125">
+                    <div className="cursor-pointer ">
                         <Image src={logo}
-                        width={299}
-                        height={27}
+                        width={500}
+                        height={150}
                         />
                     </div>
 
                 </Link>
-                <ul className="hidden sm:flex text-sm uppercase space-x-5 font-bold leading-[5] tracking-[19] ">
+                <ul className="hidden sm:flex text-lg uppercase space-x-5 font-bold leading-[5] tracking-[19] ">
                     <li className="md:p-4">
                         <Link href="/Inicio">
                             <a className={currentRoute === "/Inicio" ? "fontcolor underline underline-offset-4" : "text-gray-400"}>Inicio</a>
@@ -52,7 +52,7 @@ const Navbar = () => {
                 </ul>
                 
                 <Link href="/Contacto">
-                    <a className={currentRoute === "/Contacto" ? "fontcolor text-sm uppercase font-bold leading-[5] tracking-[19] hidden md:block" : "text-gray-400 text-sm uppercase font-bold leading-[5] tracking-[19] hidden md:block"}>Contactános  <span className="text-2xl font-light ml-2">{'\u2192'}</span>
+                    <a className={currentRoute === "/Contacto" ? "fontcolor text-lg uppercase font-bold leading-[5] tracking-[19] hidden md:block" : "text-gray-400 text-lg uppercase font-bold leading-[5] tracking-[19] hidden md:block"}>Contactános  <span className="text-2xl font-light ml-2">{'\u2192'}</span>
                     </a>
                 </Link>
                 
