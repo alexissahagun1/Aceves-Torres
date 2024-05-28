@@ -86,7 +86,7 @@ const Nosotros = () => {
             societarias y fiduciarias para sus empresas y negocios.
             <br />
             <br />
-            En el año de 2023 fue incluido en el prestigiado ranking de Chambers
+            En el año de 2023 y 2024 fue incluido en el prestigiado ranking de Chambers
             and Partners, en el área de General Business Law: Guadalajara.
           </p>
 
