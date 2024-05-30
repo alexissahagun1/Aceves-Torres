@@ -97,7 +97,9 @@ const Nosotros = () => {
                 height={171}
                 /> */}
           <div className="flex justify-center items-center">
-              <a href="https://chambers.com/lawyer/gerardo-torres-gonzalez-latin-america-9:26166197 "><img src="/GTGBanner.png" className="w-[214px] h-[171px] cursor-pointer" alt="" /><img src="/Chambers2023.jpeg" className="w-[214px] h-[171px] cursor-pointer" alt="" /></a>
+              <div className="flex items-center justify-center">
+                <a href="https://chambers.com/lawyer/gerardo-torres-gonzalez-latin-america-9:26166197 "><img src="/GTGBanner.png" className="w-[214px] h-[171px] cursor-pointer" alt="" /><img src="/Chambers2023.jpeg" className="w-[214px] h-[171px] cursor-pointer" alt="" /></a>
+              </div>
           </div>
           <p className="fontcolor font-bold tracking-wide">
             Correo:

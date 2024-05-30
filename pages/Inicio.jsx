@@ -33,12 +33,12 @@ const Inicio = () => {
             <p className="text-white text-justify leading-[35px] tracking-wide xl:w-[500px]">
                 Aceves & Torres Abogados fue fundada en 2019, con el objetivo de prestar servicios legales de forma personal, con la más alta exigencia técnica y ética a nuestros clientes.
             </p>
-            <div className='flex flex-row-reverse justify-start'>
+            <div className='flex flex-row justify-start'>
               <Link href="/Servicios">
                   <p className='fontcolor font-medium cursor-pointer text-justify md:text-[24px] text-[18px] leading-[35px] tracking-wide xl:w-[500px] mt-auto'>Conoce más {'\u2192'}</p>
               </Link>
             </div>
-            <img src="/Logo_Chambers.png" alt="" className='lg:w-1/2 w-1/8 mx-auto block'  />
+            <img src="/GTGBanner1.png" alt="" className='lg:w-1/2 w-1/2 mx-auto block'  />
             <p className="text-white text-justify leading-[35px] tracking-wide xl:w-[500px] italic ">
                 Aceves & Torres Abogados is a solid Guadalajara - based practice that is often seen representing clients in corporate and M&A deals. The legal team is also adept at handling real estate transactions, as well as civil and commercial litigation mandates. The law firm is routinely retained by clients from the technology and real estate spheres. <br /> Provided by Chambers.
             </p>
